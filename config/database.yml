@@ -1,7 +1,7 @@
 development:
   adapter: postgresql
   encoding: unicode
-  database: f3_development
+  database: pkconsulting_development
   pool: 5
 
 # Warning: The database defined as "test" will be erased and
@@ -10,11 +10,11 @@ development:
 test: &TEST
   adapter: postgresql
   encoding: utf8
-  database: project_test
+  database: pkconsulting_test
   pool: 5
 
 production:
   adapter: postgresql
   encoding: utf8
-  database: project_production
+  database: pkconsulting_production
   pool: 5
