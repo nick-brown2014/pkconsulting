@@ -1,6 +1,7 @@
 <header>
   <%= image_tag "Burger_King_Logo.svg", id: "header_logo" %>
   <nav>
+    <p>Home</p>
     <p>About Me</p>
     <p>Experience</p>
     <p>What can I do for you?</p>
@@ -11,12 +12,12 @@
   <%= image_tag "pkc_banner_home_1.jpg", id: "landing_banner_img" %>
   <div id="section_first" class="landing_section">
     <h1>PKConsulting Brings Over Thirty Years of Experience to You With a Smile</h1>
-    <div class="image_cont"><%= image_tag "underline.png", class: "underline" %></div>
+    <div class="underline"></div>
     <p>This is a section of text where Patty talks about what sets her apart from her competition, breifly mentioning her illustrious career and exemplary intangibles.  This section finishes with an emphasis, letting the reader know what Patty brings to the table is above and beyond that of her competitors.</p>
   </div>
   <div id="section_second" class="landing_section">
     <h1>Some of the Brands Patricia has Worked on...</h1>
-    <div class="image_cont"><%= image_tag "underline.png", class: "underline" %></div>
+    <div class="underline" id="underline_second"></div>
     <div id="body_cont">
       <%= image_tag "Burger_King_Logo.svg", class: "body_logo" %>
       <%= image_tag "Burger_King_Logo.svg", class: "body_logo" %>
@@ -29,4 +30,13 @@
       <%= image_tag "Burger_King_Logo.svg", class: "body_logo" %>
     </div>
   </div>
+  <div id="section_third" class="landing_section">
+    <h1>So what can Patricia Do for You?</h1>
+    <div class="underline" id="underline_third"></div>
+    <p>Do you have a project that Patricia can help you with?  Why not find out?  Start a dialogue today to find out how Patricia can give your company the branding and exposure it needs to go to the next level.</p>
+    <h2>Click here to start the conversation!</h2>
+  </div>
+  <footer>
+    <p>Copyright Patricia Kuehn 2015. All rights reserved.  Built by <a href="http://www.nick-brown-dev.com">nick-brown-dev.com</a></p>
+  </footer>
 </body>
