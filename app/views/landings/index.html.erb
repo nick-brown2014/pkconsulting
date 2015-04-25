@@ -1,11 +1,11 @@
 <header>
   <%= image_tag "Burger_King_Logo.svg", id: "header_logo" %>
   <nav>
-    <p>Home</p>
-    <p>About Me</p>
-    <p>Experience</p>
-    <p>What can I do for you?</p>
-    <p>Contact</p>
+    <%= link_to "Home", root_path %>
+    <%= link_to "About Me", about_index_path %>
+    <%= link_to "Experience", experience_index_path %>
+    <%= link_to "What can I do for you?", do_for_you_index_path %>
+    <%= link_to "Contact", contact_index_path %>
   </nav>
 </header>
 <body>
