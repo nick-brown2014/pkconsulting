@@ -85,12 +85,14 @@ body {
   display: block;
 }
 
+
 .landing_section h1 {
   text-align: center;
   margin: auto;
   color: #D4D4D4;
   padding-top: 30px;
 }
+
 
 #section_first {
   margin-top: -5px;
@@ -103,6 +105,10 @@ body {
   color: #D4D4D4;
   width: 70%;
   font-size: 1.1em;
+}
+
+.no_decoration {
+   text-decoration: none;
 }
 
 .landing_section:hover {
