@@ -273,6 +273,11 @@ footer a {
   text-decoration: none;
 }
 
+#mail_div:hover p {
+  color: #C63D2D;
+  transition: 1s;
+}
+
 .top_margin {
   margin-top: 30px;
 }
@@ -293,4 +298,14 @@ footer a {
   width: 100%;
   margin-top: 25px;
   margin-bottom: 25px;
+}
+
+#linkedin:hover {
+  color: #4875B4;
+  transition: 1s;
+}
+
+#twitter:hover {
+  color: #33CCFF;
+  transition: 1s;
 }
