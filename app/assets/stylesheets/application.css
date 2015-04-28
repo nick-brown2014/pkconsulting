@@ -34,7 +34,7 @@ header {
 #header_logo {
   position: absolute;
   left: 5%;
-  height: 75px;
+  height: 73px;
   width: auto;
 }
 
@@ -184,4 +184,46 @@ footer p {
 footer a {
   text-decoration: none;
   color: #D4D4D4;
+}
+
+#contact_body h1 {
+  margin-top: 30px;
+  text-align: center;
+  color: #D4D4D4;
+  margin-bottom: 20px;
+}
+
+#contact_body p {
+  text-align: center;
+  color: #D4D4D4;
+}
+
+#contact_body .underline {
+  width: 60%;
+  max-width: 700px;
+}
+
+.container {
+  min-height: 500px;
+  width: 100%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+#mail {
+  display: block;
+  height: 75px;
+  width: auto;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
+
+.no_style_link {
+  color: #D4D4D4;
+  text-decoration: none;
+}
+
+.top_margin {
+  margin-top: 30px;
 }
