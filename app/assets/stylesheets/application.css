@@ -112,10 +112,12 @@ body {
    text-decoration: none;
 }
 
-.landing_section:hover {
-  -moz-box-shadow: inset 0 0 30px #001D56;
+.landing_section:hover h1 {
+  /*-moz-box-shadow: inset 0 0 30px #001D56;
   -webkit-box-shadow: inset 0 0 30px #001D56;
-  box-shadow: inset 0 0 30px #001D56;
+  box-shadow: inset 0 0 30px #001D56;*/
+/*  color: #001D56;
+  transition: 1s;*/
 }
 
 .underline {
@@ -145,10 +147,12 @@ body {
   padding-top: 30px;
 }
 
-#section_second:hover {
-  -moz-box-shadow: inset 0 0 30px #851E2C;
+#section_second:hover h1 {
+/*  -moz-box-shadow: inset 0 0 30px #851E2C;
   -webkit-box-shadow: inset 0 0 30px #851E2C;
-  box-shadow: inset 0 0 30px #851E2C;
+  box-shadow: inset 0 0 30px #851E2C;*/
+/*  color: #851E2C;
+  transition: 1s;*/
 }
 
 #section_second h1 {
