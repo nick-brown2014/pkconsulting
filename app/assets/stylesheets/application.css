@@ -29,6 +29,7 @@ header {
   background-color: #FAFAFA;
   top: 0px;
   left: 0px;
+  z-index: 1;
 }
 
 #header_logo {
@@ -134,7 +135,14 @@ body {
 
 #section_second {
   background-color: #FAFAFA;
-  min-height: 1000px;
+  padding-bottom: 50px;
+}
+
+#section_second h1 {
+  text-align: center;
+  margin: auto;
+  color: #D4D4D4;
+  padding-top: 30px;
 }
 
 #section_second:hover {
@@ -153,10 +161,47 @@ body {
 }
 
 .body_logo {
-  width: 20%;
+  width: 15%;
   height: auto;
-  margin-top: 50px;
-  margin-left: 10%;
+  margin-left: 13.5%;
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+
+.body_logo:hover {
+  -webkit-filter: grayscale(0%);
+  -moz-filter: grayscale(0%);
+  -o-filter: grayscale(0%);
+  -ms-filter: grayscale(0%);
+  filter: grayscale(0%);
+  transition: 2s;
+}
+
+.logo_banner {
+  display: none;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.banner_logo {
+  float: left;
+  display: inline-block;
+  width: auto;
+  height: 100%;
+  vertical-align: top;
+  margin-left: 13.5%;
+}
+
+.banner_text {
+  float: right;
+  display: flex;
+  width: 50%;
+  height: 100%;
+  align-items: center;
+  margin-right: 13.5%;
 }
 
 #section_third p {
@@ -226,4 +271,22 @@ footer a {
 
 .top_margin {
   margin-top: 30px;
+}
+
+#about_body h1 {
+  margin-top: 30px;
+  text-align: center;
+  color: #D4D4D4;
+  margin-bottom: 20px;
+}
+
+#about_body .underline {
+  width: 60%;
+  max-width: 700px;
+}
+
+.logo_row {
+  width: 100%;
+  margin-top: 25px;
+  margin-bottom: 25px;
 }
