@@ -70,7 +70,7 @@ header nav a:hover {
 body {
   margin: 0px 0px 0px 0px;
   padding-top: 75px;
-  background-color: #36454F;
+  background-color: #2B2B2B;
 }
 
 #landing_banner_img {
@@ -122,16 +122,16 @@ body {
 
 .underline {
   width: 70%;
-  border-bottom: 2px solid #A58E33;
+  border-bottom: 2px solid #922d2a;
   margin: auto;
   margin-top: 10px;
 }
 
-#underline_second {
+#underline_forty {
   width: 40%;
 }
 
-#underline_third {
+#underline_thirtyfive {
   width: 35%;
 }
 
@@ -143,7 +143,7 @@ body {
 #section_second h1 {
   text-align: center;
   margin: auto;
-  color: #D4D4D4;
+  color: #2B2B2B;
   padding-top: 30px;
 }
 
@@ -220,7 +220,7 @@ body {
 }
 
 footer {
-  border-top: 1px solid #A58E33;
+  border-top: 1px solid #922d2a;
   height: 100px;
   line-height: 100px;
 }
@@ -298,6 +298,13 @@ footer a {
   max-width: 700px;
 }
 
+#about_body p {
+  width: 75%;
+  margin: auto;
+  text-align: center;
+  color: #D4D4D4;
+}
+
 .logo_row {
   width: 100%;
   margin-top: 25px;
@@ -323,6 +330,17 @@ footer a {
   text-align: center;
   color: #D4D4D4;
   margin-bottom: 20px;
+}
+
+#experience_body p {
+  width: 75%;
+  margin: auto;
+  text-align: center;
+  color: #D4D4D4;
+}
+
+.experience_section {
+  height: 250px;
 }
 
 #do_for_you_body {
