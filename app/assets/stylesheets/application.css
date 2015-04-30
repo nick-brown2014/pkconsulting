@@ -322,14 +322,13 @@ footer a {
 }
 
 #experience_body {
-  min-height: 500px;
 }
 
-#experience_body h1 {
+#exp_header {
   margin-top: 30px;
   text-align: center;
   color: #D4D4D4;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 #experience_body p {
@@ -340,7 +339,55 @@ footer a {
 }
 
 .experience_section {
-  height: 250px;
+  height: 350px;
+  background-color: #FAFAFA;
+  border-bottom: 2px solid #922d2a;
+}
+
+.exp-txt {
+  height: 350px;
+  width: 40%;
+  display: inline-block;
+  vertical-align: top;
+  line-height: 350px;
+  border-right: 2px solid #922d2a;
+}
+
+.experience_section h1 {
+  color: #2B2B2B;
+  text-align: center;
+}
+
+.exp-imgs {
+  width: 59%;
+  height: 100%;
+  display: inline-block;
+}
+
+.experience-logo {
+  height: 20%;
+  width: auto;
+  max-width: 40%;
+  display: inline-block;
+  margin-top: 2.75%;
+  margin-bottom: 2.75%;
+  margin-left: 7.5%;
+  border: 1px solid black;
+}
+
+#exp-txt-2 {
+  border-left: 2px solid #922d2a;
+  border-right: 0px solid black;
+}
+
+.edu-logo {
+  height: 150px;
+  width: auto;
+  max-width: 25%;
+  border: 1px solid black;
+  margin-left: 7.5%;
+  margin-top: 100px;
+  display: inline-block;
 }
 
 #do_for_you_body {
@@ -353,3 +400,5 @@ footer a {
   color: #D4D4D4;
   margin-bottom: 20px;
 }
+
+
