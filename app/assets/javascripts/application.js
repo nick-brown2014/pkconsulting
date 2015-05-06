@@ -14,7 +14,7 @@
 //= require jquery_ujs
 //= require_tree .
 
-$(document).ready(function(){
+$(document).ready(function() {
 
   $("#logo_one").click(function(event) {
     event.preventDefault();
@@ -169,6 +169,7 @@ $(document).ready(function(){
       $("#exp-1").css("line-height", height);
       $("#exp-1").fadeIn("slow");
       $("#exp-1").css("display", "inline-block");
+      expResize();
     });
   });
 
@@ -176,6 +177,7 @@ $(document).ready(function(){
     event.preventDefault();
     $("#exp-1").fadeOut("slow", function() {
       $("#logo-1").fadeIn("slow");
+      expResize();
     });
   });
 
@@ -188,6 +190,7 @@ $(document).ready(function(){
       $("#exp-2").css("line-height", height);
       $("#exp-2").fadeIn("slow");
       $("#exp-2").css("display", "inline-block");
+      expResize();
     });
   });
 
@@ -195,6 +198,7 @@ $(document).ready(function(){
     event.preventDefault();
     $("#exp-2").fadeOut("slow", function() {
       $("#logo-2").fadeIn("slow");
+      expResize();
     });
   });
 
@@ -207,6 +211,7 @@ $(document).ready(function(){
       $("#exp-3").css("line-height", height);
       $("#exp-3").fadeIn("slow");
       $("#exp-3").css("display", "inline-block");
+      expResize();
     });
   });
 
@@ -214,6 +219,7 @@ $(document).ready(function(){
     event.preventDefault();
     $("#exp-3").fadeOut("slow", function() {
       $("#logo-3").fadeIn("slow");
+      expResize();
     });
   });
 
@@ -226,6 +232,7 @@ $(document).ready(function(){
       $("#exp-4").css("line-height", height);
       $("#exp-4").fadeIn("slow");
       $("#exp-4").css("display", "inline-block");
+      expResize();
     });
   });
 
@@ -233,6 +240,7 @@ $(document).ready(function(){
     event.preventDefault();
     $("#exp-4").fadeOut("slow", function() {
       $("#logo-4").fadeIn("slow");
+      expResize();
     });
   });
 
@@ -245,6 +253,7 @@ $(document).ready(function(){
       $("#exp-5").css("line-height", height);
       $("#exp-5").fadeIn("slow");
       $("#exp-5").css("display", "inline-block");
+      expResize();
     });
   });
 
@@ -252,6 +261,7 @@ $(document).ready(function(){
     event.preventDefault();
     $("#exp-5").fadeOut("slow", function() {
       $("#logo-5").fadeIn("slow");
+      expResize();
     });
   });
 
@@ -264,6 +274,7 @@ $(document).ready(function(){
       $("#exp-6").css("line-height", height);
       $("#exp-6").fadeIn("slow");
       $("#exp-6").css("display", "inline-block");
+      expResize();
     });
   });
 
@@ -271,6 +282,7 @@ $(document).ready(function(){
     event.preventDefault();
     $("#exp-6").fadeOut("slow", function() {
       $("#logo-6").fadeIn("slow");
+      expResize();
     });
   });
 
@@ -309,4 +321,19 @@ $(document).ready(function(){
     }, 1000);
   });
 
+
+})
+
+var expResize = function() {
+  var expHeight = $(".exp-imgs").height();
+  $(".exp-txt").height(expHeight);
+  $(".exp-txt").css("line-height", expHeight + "px");
+};
+
+$(window).load(function() {
+  expResize();
+})
+
+$(window).resize(function() {
+  expResize();
 })
