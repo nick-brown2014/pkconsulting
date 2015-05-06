@@ -295,7 +295,7 @@ $(document).ready(function(){
     }, 1000);
   });
 
-  $("#contact-scroll").click(function(event) {
+  $(".contact-scroll").click(function(event) {
     event.preventDefault();
     $('html, body').animate({
         scrollTop: $("#contact-dest").offset().top
