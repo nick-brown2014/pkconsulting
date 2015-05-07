@@ -314,7 +314,7 @@ $(document).ready(function() {
     }, 1000);
   });
 
-  $("#top-scroll").click(function(event) {
+  $(".top-scroll").click(function(event) {
     event.preventDefault();
     $('html, body').animate({
         scrollTop: $("#top-dest").offset().top
