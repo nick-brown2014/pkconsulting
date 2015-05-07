@@ -472,6 +472,10 @@ footer a {
   #middle-logo {
     margin-left: 30%;
   }
+
+  #contact_body {
+    margin-bottom: 20px;
+  }
 }
 
 @media (max-width: 550px) {
