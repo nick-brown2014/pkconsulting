@@ -300,7 +300,7 @@ $(document).ready(function() {
     }, 1000);
   });
 
-  $("#do-scroll").click(function(event) {
+  $(".do-scrollers").click(function(event) {
     event.preventDefault();
     $('html, body').animate({
         scrollTop: $("#do-dest").offset().top

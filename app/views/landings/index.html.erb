@@ -2,7 +2,8 @@
   <a href="#top" id="top-scroll"><%= image_tag "pk_logo.png", id: "header_logo" %></a>
   <nav>
     <a href="#about" id="about-scroll">About</a>
-    <a href ="#do_for_you" id="do-scroll">What Can Patricia Do For You?</a>
+    <a href ="#do_for_you" class="do-scrollers" id="do-scroll">What Can Patricia Do For You?</a>
+    <a href ="#do_for_you" class="do-scrollers" id="do-scroll-small">Do For You</a>
     <a href="#experience" id="exp-scroll">Experience</a>
     <a href="#contact" class="contact-scroll">Contact</a>
   </nav>
@@ -20,6 +21,17 @@
     <h1>Some of the Brands Patricia has Influenced</h1>
     <div class="underline" id="underline_forty"></div>
     <div id="body_cont">
+      <div id="small_body">
+        <%= image_tag "Illinois-lottery.png", class: "body_logo"%>
+        <%= image_tag "keybank-logo.png", class: "body_logo"%>
+        <%= image_tag "heinz-logo.png", class: "body_logo"%>
+        <%= image_tag "truecredit-logo.png", class: "body_logo"%>
+        <%= image_tag "corona-logo.png", class: "body_logo"%>
+        <%= image_tag "negramodelo-logo.png", class: "body_logo"%>
+        <%= image_tag "sox-logo.png", class: "body_logo"%>
+        <%= image_tag "allstate-logo.png", class: "body_logo"%>
+        <%= image_tag "kraft-logo.png", class: "body_logo", id: "middle-logo"%>
+      </div>
       <div class="logo_row" id="row_one">
         <a href="#"><%= image_tag "Illinois-lottery.png", class: "body_logo", id: "logo_one" %></a>
         <a href="#"><%= image_tag "keybank-logo.png", class: "body_logo", id: "logo_two" %></a>
@@ -85,6 +97,9 @@
     <h1 id="exp_header">Experience</h1>
     <br>
     <div class="experience_section" id="experience_section_first">
+      <div class="exp-txt-small">
+        <h1>Positions Held</h1>
+      </div>
       <div class="exp-txt" id="exp-txt-first">
         <h1>Positions Held</h1>
       </div>
@@ -114,6 +129,9 @@
       </div>
     </div> -->
     <div class="experience_section" id="experience_section_second">
+      <div class="exp-txt-small" >
+        <h1>Not For Profit Work</h1>
+      </div>
       <div class="exp-imgs">
         <%= image_tag "lc-logo.png", class: "experience-logo", id: "logo-7" %>
         <%= image_tag "mb-logo.png", class: "experience-logo", id: "logo-8" %>

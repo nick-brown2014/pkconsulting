@@ -64,6 +64,10 @@ header nav a {
   padding-right: 10px;
 }
 
+#do-scroll-small {
+  display: none;
+}
+
 header nav a:hover {
   color: #851E2C;
 }
@@ -229,10 +233,10 @@ body a {
 footer {
   border-top: 2px solid #922d2a;
   height: 100px;
-  line-height: 100px;
 }
 
 footer p {
+  margin-top: 50px;
   color: #D4D4D4;
   text-align: center;
 }
@@ -333,6 +337,10 @@ footer a {
   border-right: 2px solid #922d2a;
 }
 
+.exp-txt-small {
+  display: none;
+}
+
 .experience_section h1 {
   color: #2B2B2B;
   text-align: center;
@@ -393,4 +401,98 @@ footer a {
   top: -74px;
 }
 
+#small_body {
+  display: none;
+}
 
+
+@media (max-width: 700px) {
+  #header_logo {
+    display: none;
+  }
+
+  header nav {
+    width: 100%;
+    left: 0px;
+    padding-left: 0px;
+  }
+
+  header nav a {
+    width: 19%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    font-size: 1em;
+    text-align: center;
+  }
+
+  #do-scroll-small {
+    display: inline-block;
+  }
+
+  #do-scroll {
+    display: none;
+  }
+
+  .exp-txt {
+    width: 100%;
+    display: block;
+    border-right: 0px solid black;
+    border-bottom: 2px solid #922d2a;
+  }
+
+  .exp-imgs {
+    width: 100%;
+    display: block;
+  }
+
+  .exp-txt {
+    display: none;
+  }
+
+  .exp-txt-small {
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .body_logo {
+    width: 35%;
+    margin-left: 10%;
+  }
+
+  #small_body {
+    margin-top: 20px;
+    display: block;
+  }
+
+  .logo_row {
+    display: none;
+  }
+
+  #middle-logo {
+    margin-left: 30%;
+  }
+}
+
+@media (max-width: 550px) {
+  header nav a {
+    width: 39%;
+    margin-left: 5%;
+    margin-right: 5%;
+    display: inline-block;
+    font-size: 1.1em;
+    height: 50%;
+    line-height: normal;
+    padding-top: 10px;
+  }
+
+  header {
+    height: 75px;
+  }
+
+  p {
+    width: 90%;
+    text-align: center;
+    margin: auto;
+  }
+}
