@@ -336,4 +336,10 @@ $(window).load(function() {
 
 $(window).resize(function() {
   expResize();
+  var winWidth = $(window).width();
+
+  if (winWidth <= 700 ) {
+    $(".logo_banner").hide();
+  }
+
 })
