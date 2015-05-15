@@ -190,6 +190,11 @@ body a {
   filter: grayscale(100%);
 }
 
+#logo_seven {
+  width: 45%;
+  margin-left: 27.5%;
+}
+
 .body_logo:hover {
   -webkit-filter: grayscale(0%);
   -moz-filter: grayscale(0%);
