@@ -338,6 +338,10 @@ footer a {
   border-bottom: 2px solid #922d2a;
 }
 
+#experience_section_second {
+  border-bottom: 2px solid #922d2a;
+}
+
 .exp-txt {
   width: 40%;
   height: 100%;
@@ -358,6 +362,20 @@ footer a {
 .exp-imgs {
   width: 59%;
   display: inline-block;
+}
+
+.exp-edu-txt {
+  min-width: 70%;
+  margin-top: 7.5%;
+  margin-left: 10%;
+  margin-right: 10%;
+  text-align: center;
+  font-weight: bold;
+}
+
+.exp-edu-txt:hover {
+  color: #922d2a;
+  transition: 1s;
 }
 
 .experience-logo {
@@ -412,6 +430,12 @@ footer a {
 
 #small_body {
   display: none;
+}
+
+@media (max-width: 1080px) {
+  .exp-edu-txt {
+    margin-top: 5.5%;
+  }
 }
 
 @media (max-width: 800px) {
@@ -504,6 +528,15 @@ footer a {
   #contact_body {
     margin-bottom: 20px;
   }
+
+  .exp-edu-txt {
+    margin-top: 5%;
+  }
+
+  #exp-edu-bot {
+    padding-bottom: 30px;
+  }
+
 }
 
 @media (max-width: 500px) {
@@ -521,6 +554,7 @@ footer a {
     height: 50%;
     line-height: normal;
     padding-top: 10px;
+    text-align: center;
   }
 
   header nav {
